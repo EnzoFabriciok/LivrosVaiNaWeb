@@ -1,5 +1,9 @@
 export default function LivrosDoados() {
     return(
-        <h1>Eu sou Livros Doados</h1>
+        <main>
+            <section>
+                <h1>Livros Doados</h1>
+            </section>
+        </main>
     )
 }
