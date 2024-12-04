@@ -20,14 +20,34 @@
 
 .copyright {
     display: flex;
+    justify-content: center;
     height: 5vh;
     background-color: #232020;
     align-items: center;
-    text-align: center;
     
     p {
         width: 90%;
         color: #fff;
         font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 780px) {
+    .contatosFooter {
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        ul {
+            width: 60%;
+        }
+    }
+    .copyright {
+        
+        p {
+            font-size: 12px;
+            width: 75%;
+            text-align: center;
+        }  
     }
 }
